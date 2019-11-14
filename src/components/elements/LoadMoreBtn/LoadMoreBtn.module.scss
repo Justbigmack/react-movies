@@ -1,0 +1,25 @@
+.rmdbLoadmorebtn {
+  background: #16d47b;
+  width: 35%;
+  min-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 20px;
+
+  @media screen and (max-width: 480px) {
+    width: 90%;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  p {
+    font-family: 'Abel', sans-serif;
+    font-size: 42px;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,64 @@
+.rmdbMovieinfobar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  background: #1c1c1c;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+
+.rmdbMovieinfobarContent {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.rmdbMovieinfobarContentCol {
+  float: left;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10px 20px 0 0;
+}
+
+.rmdbMovieinfobarInfo {
+  padding: 5px 0 0 10px;
+  float: left;
+}
+
+.faTime,
+.faRevenue {
+  float: left;
+  margin-top: -4px;
+}
+
+.faBudget {
+  float: left;
+  margin-top: -3px;
+}
+
+@media screen and (max-width: 425px) {
+  .rmdbMovieinfobar {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 942px) {
+  .faTime,
+  .faRevenue,
+  .faBudget {
+    display: none;
+  }
+}
+
+// @media screen and (max-width: 1000px) {
+//   .rmdb-movieinfobar-content-col {
+
+//   }
+// }
